@@ -1,0 +1,581 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container.big-width {
+    max-width: 1450px;
+}
+
+.border-rigth {
+    border-right: 1px solid #ced7db;
+    margin-top: 4px;
+    height: 18px;
+}
+
+.b-left {
+    border-right: 1px solid #eaeaea;
+}
+
+.b-top {
+    border-top: 1px solid #eaeaea;
+}
+
+p {
+    color: #757575;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+h2 {
+    color: #2a3e4e;
+    font-family: "Source Serif Pro";
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 72px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav-header-s1, .nav-header-s2, .nav-header-s3 {
+    padding: 40px 0 38px 0;
+}
+
+.nav-header {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.nav-header-s2 p:nth-child(1) {
+    color: #2a3e4e;
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 9px;
+    margin-bottom: 0;
+    margin-right: 25px;
+}
+
+.nav-header-s2 p:nth-child(2) {
+    /* Text style for "Start" */
+    color: #2a3e4e;
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}
+
+.nav-header-s2 p:nth-child(1) i {
+    transform: rotate(130deg);
+    color: #4fc6dd;
+}
+
+.lifechat {
+    color: #43c693;
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.lifechat:hover {
+    color: #43c693;
+}
+
+.nav-header {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.nav-header-s3 ul li a {
+    opacity: 0.8;
+    color: #2a3e4e;
+    font-family: "Nunito";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav-header-s3 ul li {
+    margin-top: 2px;
+}
+
+.nav-header-s3 ul {
+    padding-left: 0;
+}
+
+.btn-order-nov {
+    width: 115px;
+    height: 40px;
+    background-color: #ff5555;
+    border-radius: 0;
+    color: #ffffff;
+    font-family: "Nunito";
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.btn-order-nov:hover {
+    color: #ffffff;
+}
+
+.nav-header-s4 .btn-order-nov {
+    margin-top: 33px;
+
+}
+
+.nav-header-s4 .border-rigth {
+    margin-top: 42px;
+}
+
+.nav-header-s4 a:last-child {
+    color: #ff5454;
+    font-family: "Nunito";
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 39px;
+}
+
+.home-1 {
+    background: url("../images/img3.png") no-repeat center bottom,
+    url("../images/img2.png") no-repeat right bottom 22px,
+    url("../images/img6.png") no-repeat left 380px top 391px / 40px,
+    url("../images/img7.png") no-repeat left 307px bottom 132px / 40px,
+    url("../images/img1.png") no-repeat left top,
+    url("../images/img5.png") no-repeat center bottom 22px;
+}
+
+.home-s1 {
+    padding: 126px 0 0 0;
+}
+
+.home-s2 {
+    padding: 64px 0 141px 0;
+    margin-right: -225px;
+}
+
+
+.home-s1 > p:first-child {
+    color: #2a3e4e;
+    font-family: Nunito;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.home-s1 h1 {
+    font-family: "Source Serif Pro";
+    color: #2a3e4e;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.line {
+    width: 80px;
+    height: 2px;
+    border-bottom: 3px solid #fdbc44;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.home-s3 {
+    background: white;
+    margin-top: 43px;
+}
+
+.home-s3 .btn-order-nov {
+    background-color: #43c693;
+    width: 185px;
+    height: 50px;
+    padding-top: 13px;
+    margin: 3px;
+}
+
+.home-s3 p {
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.home-s3 i {
+    margin-top: 15px;
+    margin-left: 21px;
+}
+
+.bg-experience__icon {
+    width: 40px;
+    height: 40px;
+    background: url('../images/css_sprites.png') -10px -61px;
+}
+
+.bg-active_writers__icon {
+    width: 52px;
+    height: 31px;
+    background: url('../images/css_sprites.png') -10px -10px;
+}
+
+.bg-orders_per_day__icon {
+    width: 36px;
+    height: 35px;
+    background: url('../images/css_sprites.png') -82px -66px;
+}
+
+.bg-satisfied_rate__icon {
+    width: 36px;
+    height: 36px;
+    background: url('../images/css_sprites.png') -82px -10px;
+}
+
+.home-s5 p:first-child {
+    opacity: 0.9;
+    color: #2a3e4e;
+    font-family: "Open Sans";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-right: 22px;
+}
+
+.home-s5 div:first-child {
+    margin-bottom: 27px !important;
+}
+
+.home-s5 {
+    margin-top: 22px;
+}
+
+.home-s5 p:last-child {
+    color: #757575;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: -15px;
+    margin-bottom: 0;
+    border-right: 3px dotted silver;
+    padding-right: 10px;
+}
+
+.home-s6 a.btn-order-nov {
+    margin-top: 78px;
+    width: 160px;
+    /*height: 40px;*/
+    color: #ffffff;
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.home-s7 {
+    margin-top: 72px;
+}
+
+.home-s8 ul li {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.play {
+    margin-top: 30px;
+}
+
+.play p {
+    color: #757575;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+
+
+}
+
+.play a {
+    color: #4fc6dd;
+    font-family: "Nunito";
+    font-weight: 700;
+}
+
+.play a i {
+    font-size: 13px;
+}
+
+.btn-play {
+    /* Style for "Ellipse 1" */
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 8px 20px rgba(79, 198, 221, 0.2);
+    background-color: #4fc6dd;
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.btn-play i {
+    display: block;
+    color: white;
+    padding-left: 5px;
+}
+
+.bg-annotated_bibliography__icon {
+    width: 52px;
+    height: 55px;
+    background: url('../images/css_sprites_2.png') -84px -90px;
+    margin: 0 auto;
+}
+
+.bg-book_reports__icon {
+    width: 54px;
+    height: 59px;
+    background: url('../images/css_sprites_2.png') -89px -10px;
+    margin: 0 auto;
+}
+
+.bg-dissertation_writing__icon {
+    width: 51px;
+    height: 60px;
+    background: url('../images/css_sprites_2.png') -237px -10px;
+    margin: 0 auto;
+}
+
+.bg-essay_editing__icon {
+    width: 54px;
+    height: 58px;
+    background: url('../images/css_sprites_2.png') -10px -90px;
+    margin: 0 auto;
+}
+
+.bg-essay_writing__icon {
+    width: 54px;
+    height: 59px;
+    background: url('../images/css_sprites_2.png') -163px -10px;
+    margin: 0 auto;
+}
+
+.bg-research_paper_writing__icon {
+    width: 59px;
+    height: 60px;
+    background: url('../images/css_sprites_2.png') -10px -10px;
+    margin: 0 auto;
+
+}
+
+.home-s10 p:nth-child(2) {
+    color: #2a3e4e;
+    font-family: "Nunito";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.99px;
+    margin-top: 22px;
+}
+
+.home-s10 p:nth-child(3) {
+    color: #757575;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.home-s10 {
+    padding: 44px;
+}
+
+.home-s10:hover {
+    background: white !important;
+    box-shadow: 0 0 37px rgba(0, 0, 0, 0.05);
+}
+
+.home-s9 {
+    margin-bottom: 30px;
+}
+
+.home-4 {
+    padding-bottom: 100px;
+    background: url(../images/img1.png) no-repeat left top,
+    #f7f7f7 url(../images/img9.png) no-repeat right bottom;
+}
+
+.home-3, .home-4 {
+    padding-bottom: 100px;
+}
+
+.home-s12 {
+    padding-top: 72px;
+}
+
+.bg-download__icon {
+    width: 30px;
+    height: 28px;
+    background: url('../images/css_sprites_3.png') -60px -10px;
+}
+
+.bg-order_completion__icon {
+    width: 30px;
+    height: 32px;
+    background: url('../images/css_sprites_3.png') -10px -10px;
+}
+
+.bg-order_placement__icon {
+    width: 26px;
+    height: 32px;
+    background: url('../images/css_sprites_3.png') -110px -10px;
+}
+
+.home-s13 p {
+    color: #4fc6dd;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+.home-s13 {
+    border-bottom: 1px solid #d4d8dc;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.home-s13:hover {
+    border-bottom: 1px solid #43c693;
+}
+
+.home-s13 div p {
+    color: #2a3e4e;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 19px;
+}
+
+.home-s12 > p:last-child {
+    margin-top: 67px;
+}
+
+.home-5 {
+    padding-bottom: 100px;
+    background: url(../images/img10.png) no-repeat right 74px bottom;
+}
+
+.btn-more {
+    width: 160px;
+    height: 40px;
+    border: 1px solid #4fc6dd;
+    color: #4fc6dd;
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-left: 20px;
+
+}
+
+.btn-more:hover {
+    width: 160px;
+    height: 40px;
+    border: 1px solid #4fc6dd;
+    color: #4fc6dd;
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.home-s14 p:last-child {
+    margin-top: 58px;
+}
+
+.home-s15 {
+    width: 479px;
+    height: 216px;
+    box-shadow: 0 0 14px rgba(18, 26, 26, 0.12);
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+
+.home-s16 {
+    width: 479px;
+    height: 216px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    box-shadow: 0 0 14px rgba(18, 26, 26, 0.12);
+    background-color: #ffffff;
+    padding: 3px 29px 0 29px;
+}
+
+.home-s16 img {
+    position: relative;
+    top: -60px;
+}
+
+.feedback-name p:first-child {
+    color: #2a3e4e;
+    font-family: "Nunito";
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.home-s16 > p {
+    margin-top: -41px;
+}
+
+.home-6 {
+    padding-top: 100px;
+    padding-bottom: 270px;
+    background: url(../images/img1.png) no-repeat left top, #f7f7f7 url(../images/img12.png) no-repeat right bottom 60px;
+}
+
+.home-s17 {
+    margin-top: 20px;
+}
+
+.home-s17 p {
+    color: #37474f;
+    font-family: Nunito;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 35px;
+}
+
+.home-s17 p:first-child span {
+    font-weight: 700;
+}
+
+.home-s17 p:last-child span {
+    color: #ff5555;
+}
+
+.home-s17 p:last-child {
+    font-size: 19px;
+}
+
+.home-s17 p:last-child i {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.home-s17 i {
+    cursor: pointer;
+}

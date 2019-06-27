@@ -56,6 +56,7 @@ a:hover {
 
 .nav-header {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
 }
 
 .nav-header-s2 p:nth-child(1) {
@@ -736,4 +737,30 @@ a:hover {
 
 .footer-s4 ul li:nth-child(3) a {
     background-color: #3a559f;
+}
+
+.nav-header-2 {
+    box-shadow: none;
+    background-color: #f9f9f9;
+    padding-bottom: 50px;
+}
+
+.nav-header-2 .big-width {
+    padding-left: 55px;
+    padding-right: 55px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+.nav-header-2 .nav-header-2-s1 h1 {
+    color: #2a3e4e;
+    font-family: "Source Serif Pro";
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 50px;
+}
+.breadcrumb{
+    background-color: #f9f9f9 ;
+}
+.breadcrumb a{
+    color: #fdb32c;
 }

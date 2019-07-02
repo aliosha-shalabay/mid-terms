@@ -1500,8 +1500,9 @@ div.page-item .page-link {
     font-family: "Nunito";
     font-weight: 700;
 }
-.discount-s3 a{
-margin-top: 10px;
+
+.discount-s3 a {
+    margin-top: 10px;
 }
 
 .discount-s2 > div > div > p {
@@ -1525,10 +1526,109 @@ margin-top: 10px;
     border-left: 2px dotted #bbc1c5;
     padding-left: 30px;
 }
-.discount-s4{
+
+.discount-s4 {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
     border: 1px solid #f9f9f9;
     background-color: #ffffff;
     padding: 25px;
     margin-bottom: 15px;
+}
+
+.bg-1 {
+    width: 32px;
+    height: 22px;
+    background: url('../images/css_sprites_5.png') -106px -10px;
+    margin-right: 20px;
+
+}
+
+.bg-2 {
+    width: 28px;
+    height: 24px;
+    background: url('../images/css_sprites_5.png') -10px -114px;
+    margin-right: 20px;
+
+}
+
+.bg-3 {
+    width: 26px;
+    height: 27px;
+    background: url('../images/css_sprites_5.png') -106px -52px;
+    margin-right: 20px;
+
+}
+
+.bg-4 {
+    width: 22px;
+    height: 34px;
+    background: url('../images/css_sprites_5.png') -10px -60px;
+    margin-right: 20px;
+
+}
+
+.bg-5 {
+    width: 30px;
+    height: 30px;
+    background: url('../images/css_sprites_5.png') -10px -10px;
+    margin-right: 20px;
+
+}
+
+.bg-6 {
+    width: 26px;
+    height: 28px;
+    background: url('../images/css_sprites_5.png') -52px -60px;
+    margin-right: 20px;
+
+}
+
+.bg-7 {
+    width: 24px;
+    height: 26px;
+    background: url('../images/css_sprites_5.png') -158px -56px;
+    margin-right: 20px;
+
+}
+
+.bg-8 {
+    width: 26px;
+    height: 24px;
+    background: url('../images/css_sprites_5.png') -58px -114px;
+    margin-right: 20px;
+
+}
+
+.bg-9 {
+    width: 26px;
+    height: 30px;
+    background: url('../images/css_sprites_5.png') -60px -10px;
+    margin-right: 20px;
+
+}
+
+.bg-10 {
+    width: 26px;
+    height: 26px;
+    background: url('../images/css_sprites_5.png') -158px -10px;
+    margin-right: 20px;
+
+}
+
+.essay-s2 {
+    border-bottom: 1px solid rgba(117, 117, 117, 0.23);
+    margin-top: 25px;
+}
+.essay-s2:hover {
+    border-bottom: 1px solid #43c693;
+}
+
+.essay-s2 a {
+    color: #4fc6dd;
+    font-family: "Nunito";
+    font-size: 14px;
+    font-weight: 500;
+}
+.essay-s2:hover a {
+    color:  #43c693;
 }

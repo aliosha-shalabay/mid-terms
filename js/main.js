@@ -8,9 +8,11 @@ jQuery(document).ready(function () {
 
     $('.next-feed').click(function(){
         $(".slider-feedbakc").slick('slickNext');
+        $(".slider-feedbakc2").slick('slickNext');
     });
     $('.prev-feed').click(function(){
         $(".slider-feedbakc").slick('slickPrev');
+        $(".slider-feedbakc2").slick('slickPrev');
     });
 
     $(".slider").slick({
@@ -33,5 +35,12 @@ jQuery(document).ready(function () {
                     slidesToScroll: 1,
                 }
             }],
+    });
+
+    $('.slider-feedbakc2').slick({
+        prevArrow: false,
+        nextArrow: false,
+        slidesToShow: 2,
+        slidesToScroll: 1,
     });
 });

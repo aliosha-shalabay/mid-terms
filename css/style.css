@@ -1766,7 +1766,7 @@ div.page-item .page-link {
     background-color: #f9f9f9;
 }
 
-.p-404-s1 h3{
+.p-404-s1 h3 {
     color: #2a3e4e;
     font-family: "Source Serif Pro";
     font-size: 40px;
@@ -1774,14 +1774,16 @@ div.page-item .page-link {
     line-height: 60px;
     margin-top: 60px;
 }
-.p-404-s1 p{
+
+.p-404-s1 p {
     color: #757575;
     font-family: Nunito;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
 }
-.p-404-s1 a{
+
+.p-404-s1 a {
     width: 260px;
     height: 48px;
     background-color: #fdb32c;

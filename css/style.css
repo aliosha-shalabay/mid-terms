@@ -2,7 +2,10 @@
     /*padding-left: 0;*/
     /*padding-right: 0;*/
 }
-
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
 .container.big-width {
     max-width: 1450px;
 }
@@ -45,6 +48,7 @@ h3 {
     font-weight: 600;
     line-height: 26px;
 }
+
 
 h4 {
     color: #2a3e4e;

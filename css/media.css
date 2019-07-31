@@ -60,6 +60,12 @@
         margin-top: 31px;
     }
 
+    .nav-header-2 .nav-header-2-s1 h1 {
+        line-height: 33px;
+        margin-top: 31px;
+        margin-bottom: 20px;
+    }
+
     .breadcrumb {
         padding: 0;
         margin-top: -15px;
@@ -353,14 +359,17 @@
     .nav-header-s1, .nav-header-s2, .nav-header-s3 {
         padding: 11px 0 0px 0;
     }
-    .blog .home-s16 img{
+
+    .blog .home-s16 img {
         left: -15px;
     }
-    .blog .home-s16{
+
+    .blog .home-s16 {
         margin-right: 4px;
         margin-left: 4px;
         padding-top: 30px;
     }
+
     .nav-header-2 .big-width {
         box-shadow: none;
     }
@@ -525,6 +534,22 @@
 
     .footer-page.footer {
         height: 642px !important;
+    }
+
+    .like-block {
+        display: none;
+    }
+
+    .blog-list-s1 {
+        margin-left: -27px;
+        margin-right: -27px;
+    }
+
+    .blog-list-s3 p {
+        margin-right: 15px;
+    }
+    div.page-item {
+        padding-top: 8px;
     }
 }
 

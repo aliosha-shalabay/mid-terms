@@ -74,6 +74,10 @@ a:hover {
     padding: 40px 0 38px 0;
 }
 
+.nav-header-s1 a {
+    margin-right: 20px;
+}
+
 .nav-header {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
@@ -158,6 +162,8 @@ a:hover {
 
 .nav-header-s4 .btn-order-nov {
     margin-top: 33px;
+    margin-left: 5px;
+    margin-right: 5px;
 
 }
 
@@ -165,7 +171,7 @@ a:hover {
     margin-top: 42px;
 }
 
-.nav-header-s4 a:last-child {
+.nav-header-s4 a.login-btn {
     color: #ff5454;
     font-family: "Nunito";
     font-size: 15px;
@@ -508,7 +514,6 @@ a:hover {
 }
 
 .btn-more:hover {
-    width: 160px;
     height: 40px;
     border: 1px solid #4fc6dd;
     color: #4fc6dd;
@@ -647,8 +652,8 @@ a:hover {
 }
 
 .border-rigth-sample {
-    border-right: 1px solid silver;
-    padding-right: 75px;
+    /*border-right: 1px solid silver;*/
+    /*padding-right: 75px;*/
 }
 
 .slick-dots li button:before {
@@ -902,6 +907,7 @@ a:hover {
 
 .about-s2 .btn-order-nov {
     width: 100%;
+    background: #43c693;
 }
 
 .about-s2 ul li a {
@@ -1002,9 +1008,9 @@ a:hover {
 
 .slider-feedbakc {
     padding: 20px;
-    box-shadow: 0 0 25px rgba(60, 60, 60, 0.08);
-    border: 1px solid #f9f9f9;
-    background-color: #ffffff;
+    /*box-shadow: 0 0 25px rgba(60, 60, 60, 0.08);*/
+    /*border: 1px solid #f9f9f9;*/
+    /*background-color: #ffffff;*/
 }
 
 .about-s4 p:first-child {
@@ -1793,4 +1799,39 @@ div.page-item .page-link {
     font-size: 16px;
     font-weight: 600;
     line-height: 23px;
+}
+
+.section-gumburger {
+    margin-top: 34px;
+    text-align: right;
+}
+
+.calc-form .btn-order-nov {
+    background-color: #43c693;
+}
+
+.calc-form select, .calc-form input {
+    color: #9b9eaa;
+}
+
+.home-s1  .bg-circle {
+    background: url(../images/img14.png) no-repeat left top;
+}
+.mob-menu li a{
+    color: #78909c;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.footer ul.mob-menu  li{
+    margin-right: 3px;
+}
+.footer ul.mob-menu {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.link-p-mob, .link-p-mob a{
+    opacity: 0.68;
+    color: #ffffff;
+    font-size: 13px;
 }

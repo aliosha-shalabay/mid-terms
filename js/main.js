@@ -51,5 +51,13 @@ jQuery(document).ready(function () {
         nextArrow: false,
         slidesToShow: 2,
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }],
     });
 });

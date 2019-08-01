@@ -1713,12 +1713,14 @@ div.page-item .page-link {
 }
 
 .sample-s1 div p {
-    width: 120px;
     height: 54px;
     background-color: #f9f9f9;
     padding-top: 15px;
     text-align: center;
+    margin-right: 5px;
+    margin-right: 5px;
 
+    padding: 15px 20px;
 }
 
 .sample-s1 > p:first-child {

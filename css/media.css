@@ -259,7 +259,8 @@
     .contact {
         padding-bottom: 0px;
     }
-    .m-left-mobile{
+
+    .m-left-mobile {
         margin-left: 48px;
         margin-bottom: 5px;
     }
@@ -415,6 +416,14 @@
         margin-left: -12px;
         margin-right: -12px;
     }
+
+    .how-it-line {
+        height: 635px;
+    }
+
+    .how-it-s1 img {
+        margin-top: -21px;
+    }
 }
 
 
@@ -427,10 +436,27 @@
         left: -15px;
     }
 
+    .faq-s1 {
+        margin: 0 -15px;
+    }
+
+    .faq-s1 ul li {
+        padding-bottom: 7px;
+        margin-top: 10px;
+    }
+
+    .faq-s1 ul li p {
+        margin-left: 3px;
+    }
+
     .blog .home-s16 {
         margin-right: 4px;
         margin-left: 4px;
         padding-top: 30px;
+    }
+
+    .faq-s1 h3 {
+        font-size: 24px;
     }
 
     .nav-header-2 .big-width {
@@ -615,6 +641,32 @@
     div.page-item {
         padding-top: 8px;
     }
+
+    .how-it-s1 img {
+        margin-top: 5px;
+        margin-left: -19px;
+        margin-right: 14px;
+
+    }
+
+    .how-it-line {
+        height: 46%;
+    }
+}
+
+
+@media only screen and (max-width: 430px) {
+    .how-it-line {
+        height: 44%;
+        top: 200px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .how-it-line {
+        height: 44%;
+        top: 220px;
+    }
 }
 
 @media only screen and (max-width: 376px) {
@@ -623,6 +675,10 @@
         border-top: 3px dotted #bbc1c5;
         margin-top: 1px;
         display: inline-block;
+    }
+
+    .how-it-line {
+        height: 42%;
     }
 
     .img-for-mobile {
